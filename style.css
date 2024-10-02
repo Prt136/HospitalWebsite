@@ -1,0 +1,870 @@
+@font-face {
+  font-family: Montserrat-Bold;
+  src: url(../fonts/Montserrat-Bold.ttf);
+}
+@font-face {
+  font-family:Montserrat-Light;
+  src: url(../fonts/Montserrat-Light.ttf);
+}
+@font-face {
+  font-family: Montserrat-Regular;
+  src: url(../fonts/Montserrat-Regular.ttf);
+}
+@font-face {
+  font-family: Montserrat-SemiBold;
+  src: url(../fonts/Montserrat-SemiBold.ttf);
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header .nav-wrapper{
+    width: 100%;
+    padding-top: 15px;
+    background-color: #fff;
+}
+header .navbar ul{
+    display: flex;
+    list-style: none;
+}
+header .nav-logo{
+    top: 0;
+    left: 0;
+    margin: auto;
+}
+header .navbar .logo{
+    width: 100%;
+    height: auto;
+    max-width: 10%;
+    aspect-ratio: auto 1/1px;
+}
+header .nav-item{
+    position: relative;
+    text-align: center;
+    padding: 0 1rem;
+} 
+header .navbar .nav .nav-item a{
+    color: #30499F;
+    padding: 0 10px;
+    font-size: 70%;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Montserrat-Bold;
+} 
+.banner-text-wrapper{
+    left: 0;
+}
+.banner .banner-text h1{
+    font-size: 240%;
+    font-family: Montserrat-Bold;
+}
+.banner .banner-text p{
+    font-size: 250%;
+    font-family: Montserrat-Regular;
+}
+.navbar .nav .nav-item.is-active a{
+    text-decoration: underline;
+    text-underline-offset: 0.5rem;
+    text-decoration-color: #ff3c78;
+    text-decoration-thickness: 3px;
+}
+.navbar .nav .nav-item a:hover{
+    text-decoration: underline;
+    text-underline-offset: 0.5rem;
+    text-decoration-color: #ff3c78;
+    text-decoration-thickness: 3px;
+}
+/*.nav-item a:after{
+    border-bottom: 3px solid #ff3c78;
+    width: 100%;
+}*/
+/*.nav-item.is-active a:after{
+    border-bottom: 3px solid #ff3c78;
+    width: 100%;
+}*/
+
+/*.nav-item li a.active{
+  border-bottom: 3px solid #ff3c78;
+}*/
+/*BannerCSS*/
+.banner .banner-wrapper .banner-img{
+    display: block;
+    width: 100%;
+}
+.banner .banner-wrapper .banner-img-mobile{
+    display: none;
+}
+.banner .banner-text{
+    top: 160px;
+    color: #FFFFFF;
+    position: absolute;
+    font-family:  Montserrat-Regular;
+}
+.banner-wrapper{
+    padding: 25px;
+    text-align: center;
+    position: relative;
+}
+.banner img{
+    width: 100%;
+}
+.banner-wrapper .about-img{
+    width: 100%;
+    display: block;
+}
+.banner-wrapper .banner-mobile{
+    display: none;
+}
+.banner-wrapper .about-img{
+    left: 0;
+    right: 0;
+    top: 15px;
+    color: #FFFFFF;
+    text-align: center;
+    position: absolute;
+}
+.banner-wrapper .img-fluid.banner1{
+    width: 100%;
+    display: block;
+}
+ .banner-wrapper .banner-mob-img .img-fluid.banner2{
+    display: none;
+}
+.banner-wrapper img.img-fluid.banner{
+    width: 100%;
+}
+/*TreatmentsCSS*/
+.row-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    padding-bottom: 25px;
+}
+.section-container {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    right: 0;
+}
+.content-wrapper {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-end;
+}
+.treatments-wrapper h2{
+    color: #333333;
+    font-size: 190%;
+    margin: 20px 0px;
+    text-align: center;
+    line-height: 39.01px;
+    text-transform: uppercase; 
+    font-family:  Montserrat-Regular;
+}
+.treatments-wrapper h6{
+    color: #333333;
+    font-size: 100%;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: center;
+    padding: 0px 0px 20px 0px;
+    font-family: Montserrat-Regular;
+}
+.row-wrapper .left-col{
+    width: 50%;
+    flex: 0 0 auto;
+}
+.row-wrapper .right-col{
+    width: 50%;
+    flex: 0 0 auto;
+}
+
+.row-wrapper .right-col.img-padding{
+  padding-right: 2rem;
+}
+
+.columns-content {
+    width: 50%;
+    font-size: 70%;
+    line-height: 1.8;
+    padding-left: 70px;
+    padding: 0px 40px;
+    font-family: Montserrat-Regular;
+}
+.columns-content h5{
+    color: #333333;
+    font-size: 106%;
+    font-weight: 600;
+    margin-bottom: 20px;
+    vertical-align: text-top;
+    font-family: Montserrat-Regular;
+}
+.section-container .columns.content p{
+    color: #333333;
+    font-size: 80%;
+    font-weight: 400;
+    font-family: Montserrat-Regular;
+}
+.right-col .columns-img{
+    width: 100%;
+}
+.treatments .child-1{
+    position: relative;
+    top: 30px;
+}
+.treatments .child-2{
+    position: relative;
+}
+.treatments .child-3{
+    position: relative;
+}
+.treatments .child-4{
+    position: relative;
+}
+.content-wrapper-1{
+    display: flex;
+    flex-direction: column;
+}
+.content-wrapper-2 {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.content-wrapper-4 {
+    display: flex;
+    flex-direction: row-reverse;
+}
+/*.hospital-view-Section*/
+.hospital-view{
+    background-color: #EFF1F8;
+}
+.hospital-view .about-img{
+    width: 670px;
+    margin: 0 auto;
+    padding-top: 90px;
+    text-align: center;
+}
+.hospital-view .about-img .button{
+    border: none;
+    margin: 10px;
+    font-size: 80%;
+    color: #30499F;
+    text-align: center;
+    padding: 10px 25px;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #FFFFFF;
+}
+.banner-wrapper .about-img h2{
+    color: #FFFFFF;                          /*white-clr*/
+    font-size: 190%;
+    font-weight: 500;
+    font-family: Montserrat-Regular;
+}
+.banner-wrapper .about-img p{
+    margin-top: 0;
+    font-size: 80%;
+    color: #FFFFFF;                         /*white-clr*/
+    font-weight: 500;   
+    line-height: 28px;
+    font-family: Montserrat-Regular;
+}
+/*Orthopedic Departments*/
+.ortho-inner-card {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+ .ortho-inner-card .card-box{
+    margin: 20px;
+    overflow: hidden;
+    border-radius: 15px;
+    background-color: #FEF5F6;
+    width: calc((100% - 120px)/ 3);
+}
+.title{
+   padding: 10px;
+ }
+.card-text h4{
+    color: #333333;
+    font-size: 150%;
+    font-weight: 500;
+    margin-top: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Montserrat-Regular;
+}
+.ortho-inner-card .card-box .des{
+    padding: 10px;
+    font-size: 32%;
+    text-align: left;
+    padding-top: 10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-family: Montserrat-Regular;
+}
+.ortho-inner-card .card-box .des h5{
+    color: #333333;
+    font-size: 284%;
+    line-height: 18.82px;
+    font-family:  Montserrat-SemiBold;
+}
+.ortho-inner-card .card-box .des p{
+    color: #333333;
+    font-size: 200%;
+    font-weight: 400;
+    line-height: 20px;
+    font-family:  Montserrat-Regular;
+}
+/*image-scale*/
+.image {
+    /*height: 170px;*/
+    height: auto;
+    overflow: hidden;
+    width: 100%;
+}
+.image img {
+    width: 100%;
+    object-fit: fill;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.right-col .columns-img .img-fluid {
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+}
+.card-box .image img{
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    transition: .3s ease-in-out;
+    -webkit-transition: .3s ease-in-out;
+}
+.card-box .image:hover img{
+    transform: scale(1.3);
+    -webkit-transform: scale(1.3);
+}
+.main .view-btn-blue{
+    padding-bottom: 20px;
+    text-align: center;
+}
+.view-btn-blue .button{
+   border: none;
+    color: #FFFFFF;     /*White*/
+    cursor: pointer;
+    font-size: 80%;
+    margin: 4px 2px;
+    text-align: center;
+    padding: 10px 25px;
+    text-decoration: none;
+    background-color: #30499F;   /* blue */
+}
+/*Contact-Section*/
+.contact-section{
+    background-color:#30499F;
+    text-align: center;
+}
+.contact-section .contact-inner{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+.contact-wrapper h3{
+    font-size: 150%;
+    color: #FFFFFF;
+    font-weight: 500;
+    margin-top: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family:  Montserrat-Regular;
+}
+.contact-section .conact-heading p{
+    font-size: 90%;
+    color: #FFFFFF;
+    font-weight: 400;
+    Line height: 21.94px;
+    font-family: Montserrat-Regular;
+}
+.book-btn a:link, a:visited{
+  color: #30499F;
+  font-weight:500;
+  padding: 5px 25px;
+  font-size: 80%;
+  text-align:center;
+  margin-bottom: 20px;
+  text-decoration:none;
+  display:inline-block;
+  background-color: #FFFFFF;
+}
+/*Submit Button*/
+.submit-btn{
+    text-align: center;
+}
+.submit-btn .button{
+    background-color: #30499F;   /* blue */
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    padding: 12px 38px;
+    cursor: pointer;
+    margin: 4px 2px;
+    font-size: 16px;
+    color: #FFFFFF;             /*White*/
+    border: none;
+}
+.flex-contact-wrapper{
+    justify-content: center;
+    column-gap: 152px;
+    margin: 30px 20px;
+    display: flex;
+    width: 100% ;
+}
+.inner-form{
+    margin: 50px 20px;
+}
+/*Footer-Section*/
+footer .footer-wrapper{
+    background-color:#000000;
+}
+footer .copyright p{
+    font-size: 75%;
+    color: #FFFFFF;
+    padding: 20px 0px;
+    margin-bottom: 0px;
+}
+}
+
+@media screen and (min-width: 2500px) {
+    body {
+        max-width: 2500px;
+    }
+}
+@media screen and (min-width: 2000px) and (max-width: 2499px) {
+
+}
+@media screen and (min-width: 1600px) and (max-width: 1999px) {
+
+
+}
+@media screen and (min-width: 1200px) and (max-width: 1600px) {
+header .navbar .nav .nav-item a {
+    font-size: 100%; 
+}
+.banner .banner-text {
+    top: 220px;
+}
+.banner .banner-text h1 {
+    font-size: 325%;
+}
+.banner .banner-text p {
+    font-size: 300%;
+}
+
+.columns-content {
+    width: 50%;
+    font-size: 100%;
+    line-height: 1.8;
+    padding-left: 70px;
+    padding: 0px 40px;
+    font-family: Montserrat-Regular;
+}
+.columns-content h5 {
+    color: #333333;
+    font-size: 125%;
+    font-weight: 600;
+    margin-bottom: 20px;
+    vertical-align: text-top;
+    font-family: Montserrat-Regular;
+}
+.hospital-view .about-img {
+    width: 920px;
+    margin: 0 auto;
+    padding-top: 159px;
+    text-align: center;
+}
+.hospital-view .about-img .button {
+    margin: 10px;
+    font-size: 100%;
+    padding: 15px 40px;
+}
+.banner-wrapper .about-img h2 {
+    color: #FFFFFF;
+    font-size: 235%;
+}
+.banner-wrapper .about-img p {
+    margin-top: 0px;
+    font-size: 125%;
+    font-weight: 500;
+    line-height: 35px;
+}
+.ortho-inner-card .card-box .des {
+    padding: 15px;
+}
+.ortho-inner-card .card-box .des p {
+    font-size: 315%;
+}
+.book-btn a:link, a:visited {
+    font-size: 80%;
+    font-weight: 500;
+    padding: 10px 30px;
+    margin-bottom: 20px;
+}
+.view-btn-blue .button {
+    font-size: 90%;
+    padding: 14px 30px;
+}
+.contact-section .conact-heading p {
+    font-size: 100%;
+}
+footer .copyright p {
+    font-size: 90%;     
+    padding: 20px 0px;
+    margin-bottom: 0px;
+}
+
+}
+@media screen and (min-width:992px) and (max-width:1200px) {
+.columns-content {
+    width: 50%;
+    font-size: 75%;
+    line-height: 1.8;
+    padding-left: 70px;
+    padding: 0px 20px;
+    font-family: Montserrat-Regular;
+}
+}
+
+@media screen and (min-width:769px) and (max-width:991px) {
+header .nav-item {
+    padding: 10px 0rem;
+}
+.banner .banner-text {
+    top: 130px;
+}
+.banner .banner-text h1 {
+    font-size: 225%;
+}
+.banner .banner-text p {
+    font-size: 225%;
+}
+.banner-wrapper .about-img p{
+    font-size: 90%;
+    padding: 0px 23px;
+}
+.image img {
+    width: 100%;
+    height: 340px;
+}
+.section-container {
+    top: 35px;
+}
+.columns-content h5 {
+    font-size: 125%;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.columns-content p{
+    font-size: 80%;
+}
+.columns-content {
+    width: 50%;
+    font-size: 65%;
+    line-height: 1.8;
+    padding-left: 70px;
+    padding: 0px 20px;
+    font-family: Montserrat-Regular;
+}
+.hospital-view .about-img {
+    width: 665px;
+    padding-top: 55px;
+}
+.banner-wrapper .about-img h2 {
+    font-size: 150%;
+}
+.banner-wrapper .about-img p {
+    font-size: 75%;
+    padding: 0px 0px;
+}
+.ortho-inner-card .card-box .image{
+    height:auto;
+}
+.ortho-inner-card .card-box{
+    margin: 8px;
+    width: calc((100% - 48px)/ 2);
+}
+.ortho-inner-card .card-box .des{
+    padding-top: 10px;
+    text-align: left;
+    padding: 3px;
+    margin: 15px;
+}
+.ortho-inner-card .card-box p{
+    font-size: 90%;
+}
+.image img {
+    width: 100%;
+    height: auto;
+}
+}
+@media screen and (min-width:569px) and (max-width:769px) {
+.banner .banner-text {
+    top: 118px;
+}
+.banner .banner-text h1 {
+    font-size: 225%;
+    font-family: Montserrat-Bold;
+}
+.banner .banner-text p {
+    font-size: 200%;
+    font-family: Montserrat-Regular;
+}
+.content-wrapper-1 .columns-content {
+    width: 50%;
+    font-size: 50%;
+    padding: 0px 20px;
+}
+.content-wrapper-2 .columns-content {
+    width: 50%;
+    font-size: 50%;
+    padding: 0px 20px; 
+}
+.content-wrapper-3 .columns-content{
+    width: 50%;
+    font-size: 50%;
+    padding: 0px 20px;
+}
+.content-wrapper-4 .columns-content {
+    width: 50%;
+    font-size: 50%;
+    padding: 0px 20px;
+}
+.ortho-inner-card .card-box{
+    margin: 8px;
+    width: calc((100% - 48px)/ 2);
+}
+.ortho-inner-card .card-box .des{
+    padding-top: 10px;
+    text-align: left;
+    padding: 3px;
+    margin: 15px;
+}
+.ortho-inner-card .card-box p{
+    font-size: 90%;
+}
+.hospital-view .about-img{
+    width: 670px;
+    margin: 0 auto;
+    padding-top: 65px;
+    text-align: center;
+}
+.banner-wrapper .about-img p{
+    margin-top: 0;
+    font-size: 65%;
+}
+}
+@media screen and (min-width:320px) and (max-width:568px){
+.container{
+    width: 100%;
+     padding-right:0px; 
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+header .nav{
+    background: linear-gradient(0deg, rgba(204,204,204,0.6363795518207283) 0%, rgba(255,255,255,1) 100%);
+}
+header .navbar .logo{
+    width: 100%;
+    padding: 10px;
+    max-width: 25%;
+    margin-bottom: 20px;
+}
+header .navbar{
+    padding-bottom: 0rem;
+}
+header .nav-wrapper{
+   padding: 0px;
+}
+header .nav-item{
+    padding: 0;
+    vertical-align: middle;
+    width: calc((100% - 0px) /4 );  
+    border-top: 1px solid #9D9D9D;
+    border-bottom: 1px solid #9D9D9D;   
+    text-decoration: none !important;
+}
+header .nav-item{
+    padding: 0px 0rem;
+}
+header .navbar .nav .nav-item a{
+    color: #30499F;
+    padding: 0px 0px;
+    font-size: 55%;
+}
+header .nav-item.nav-link-ltr.rigth-brd{
+    border-right: 1px solid #9D9D9D;
+}
+header .nav-item.nav-link-ltr.is-active{
+    text-decoration: none;
+    text-decoration-color: 0px !important;
+}
+header .nav-item.is-active a:after{
+    border-bottom: 0px solid #ff3c78 !important;
+}
+.banner .banner-text {
+    top: 180px;
+    left: 10px;
+}
+.navbar .nav .nav-item.is-active a{
+    text-decoration: none;
+    text-underline-offset: 0rem;
+    text-decoration-color: 0px;
+    text-decoration-thickness: 0px;
+}
+.navbar ul{
+    width: 100%;
+    display: flex;
+    list-style: none;
+    justify-content:center;
+}
+.navbar .nav .nav-item a:hover{
+    text-decoration: none;
+    text-decoration-color: 0px;
+}
+.banner .banner-wrapper .banner-img{
+    display: none;
+}
+.banner .banner-wrapper .banner-img-mobile{
+    width: 100%;        
+    display: block;
+}
+.banner .banner-text h1{
+    font-size: 150%;
+}
+.nav-item{
+    position: relative;
+    text-align: center;
+}
+.nav-item a:hover:after{
+  width: 100%;
+  border-bottom: 0px;
+}   
+.banner .banner-text p{
+    font-size: 124%;
+}
+.card-text h4{
+    font-size: 93%;
+    font-weight: 600;
+    padding: 20px 0px;
+    text-transform: uppercase;
+    font-family: Montserrat-Regular;
+}
+.banner-wrapper .about-img h2{
+    font-size: 100%;
+}
+.section-container .columns-content p{
+    font-size: 78%;
+    font-weight: 400;
+    line-height: 20px;
+    font-family: Montserrat-Regular;
+}
+.hospital-view .about-img{
+    width: 320px; 
+    padding-top: 75px;
+}
+.section-container {
+    position: static; 
+    top: 50px;
+    left: 0;
+    right: 0;
+}
+.section-container{
+    display: flex;
+    flex-wrap: wrap;  
+}
+.row-wrapper.revsers{
+    flex-direction: column-reverse;
+}
+.right-col .columns-img {
+    width: 100%;
+    padding-bottom: 30px;
+}
+.section-container .columns{
+    width: 100%;
+}
+.columns-content {
+    width: 100%;
+}
+.row-wrapper .right-col {
+    width: 100%;
+    flex: 0 0 auto;
+}
+.row-wrapper{
+    padding-bottom: 20px;
+}
+/**/
+.treatments-wrapper h6{
+    font-size: 70%;
+}
+.banner-wrapper img.img-fluid.banner1{
+    display: none;
+}
+.banner-wrapper .banner-mob-img img.img-fluid.banner2{
+    width: 100%;
+    display: block;
+}
+.banner-wrapper .about-img p{
+    font-size: 63%;
+    padding: 0px 23px;
+}
+.hospital-view .about-img .button{
+    margin: 6px;
+    font-size: 16px;
+    padding: 10px 22px;
+}
+.section-container .columns-content h5{ 
+    font-size: 106%;
+    font-weight: 600;
+    font-family: Montserrat-Regular;
+}
+.ortho-inner-card .card-box{
+    width: 100%;
+    margin: 20px;
+    border-radius: 5px;
+    background-color: #FEF5F6;
+}
+.ortho-inner-card{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.ortho-inner-card .card-box .des p{
+    font-size: 280%;
+}
+.contact-section .contact-inner{
+    display: block;
+}
+.contact-section .conact-heading p{
+    font-size: 97%;
+    font-weight: 500;
+    padding: 0px 0px 0px 0px;
+}
+.book-btn a:visited{
+    color: #30499F;
+    font-weight: 500;
+    padding: 6px 40px;
+    text-align: center;
+    margin-bottom: 40px;
+    display: inline-block;
+    text-decoration: none;
+    background-color: #FFFFFF;
+}
+.copyright p{
+    color: #FFFFFF;
+    padding: 12px 0px;
+    margin-left: 32px;
+}
+}
+@media screen and (min-width: 279px) and (max-width: 319px) {
+}
